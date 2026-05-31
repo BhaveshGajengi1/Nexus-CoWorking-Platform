@@ -157,12 +157,12 @@ Most operators rely on **spreadsheets, WhatsApp, separate booking tools, and man
 │  │Pipeline  │  │Renewals  │  │ Tickets  │  │   AI   │   │
 │  └──────────┘  └──────────┘  └──────────┘  └────────┘   │
 └────────────────────────┬────────────────────────────────┘
-│
-┌──────────▼──────────┐
-│   Supabase Backend   │
-│  PostgreSQL + Auth   │
-│  + Realtime + RLS    │
-└─────────────────────┘
+                         │
+              ┌──────────▼──────────┐
+              │   Supabase Backend  │
+              │  PostgreSQL + Auth  │
+              │  + Realtime + RLS   │
+              └─────────────────────┘
 ```
 ---
 
@@ -302,18 +302,6 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 4. Click **Deploy**
 
 Auto-deploys on every push to `main` ✅
-
----
-
-## 🏆 Evaluation Criteria Mapping
-
-| Criteria | How NEXUS Addresses It |
-|---|---|
-| **Problem Understanding 20%** | Directly solves 6 core pain points — visitor chaos, booking conflicts, renewal leakage, fragmented finance, poor visibility, no comms tool |
-| **Technical Execution 25%** | Next.js + Supabase (Auth + Realtime + RLS) + Anthropic AI + 8 live DB tables + real-time subscriptions |
-| **Product Thinking 20%** | Smart alerts, churn prediction, lead scoring, SLA timers, onboarding checklists — all built for real operator workflows |
-| **Innovation 15%** | Expiry Radar visualization, AI chatbot with live data context, BI Dashboard presentation mode, Revenue Leakage Detector |
-| **Presentation 20%** | BI Dashboard full-screen mode built specifically for judge presentations + clean obsidian design language |
 
 ---
 
