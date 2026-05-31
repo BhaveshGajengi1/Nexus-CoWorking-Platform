@@ -145,6 +145,7 @@ Most operators rely on **spreadsheets, WhatsApp, separate booking tools, and man
 ---
 
 ## 🏗️ Architecture
+```
 ┌─────────────────────────────────────────────────────────┐
 │                     NEXUS Frontend                      │
 │                  (Next.js + Tailwind)                   │
@@ -162,7 +163,7 @@ Most operators rely on **spreadsheets, WhatsApp, separate booking tools, and man
 │  PostgreSQL + Auth   │
 │  + Realtime + RLS    │
 └─────────────────────┘
-
+```
 ---
 
 ## 🗄️ Database Schema
